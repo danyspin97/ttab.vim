@@ -18,6 +18,14 @@ All the mappings work in normal mode and inside the terminal.
 
 The default prefix is '\<C-B>'.
 
+## Installation
+
+Install the plugin using [Plug](https://github.com/junegunn/vim-plug):
+
+```vimscript
+Plug 'DanySpin97/ttab.vim'
+```
+
 ## Settings
 
 ### Prefix
