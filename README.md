@@ -32,6 +32,7 @@ Mapping | Action
 \<Prefix>\| | Open a terminal in a vertical window
 \<Prefix>\- | Open a terminal in a horizontal window
 \<Prefix>x  | Close the current tab
+\<Prefix>[0-9] | Move to the i*th* tab
 
 All the mappings work in normal mode and inside the terminal.
 
