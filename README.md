@@ -13,7 +13,9 @@ add prefixes for command which take a lot of keystrokes
 
 ## Installation
 
-Install the plugin using [Plug](https://github.com/junegunn/vim-plug):
+You can use any plugin manager to install ttab.vim.
+
+For example, using [Plug](https://github.com/junegunn/vim-plug) it would be:
 
 ```vimscript
 Plug 'DanySpin97/ttab.vim'
