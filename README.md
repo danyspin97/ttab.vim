@@ -2,6 +2,23 @@
 
 Easily create tabs and move between them, using tmux shortcuts.
 
+## Description
+
+This plugin tries to colm the lack of shortcuts for the :term command, which
+have been introduced lately. ttab.vim let you create terminal buffers
+in split and tabs, in the same way you would do in tmux.
+It does not try to replace command like :split and :vsplit; instead it only
+add prefixes for command which take a lot of keystrokes
+(:tabnew or :vs\<CR>:term\<CR>).
+
+## Installation
+
+Install the plugin using [Plug](https://github.com/junegunn/vim-plug):
+
+```vimscript
+Plug 'DanySpin97/ttab.vim'
+```
+
 ## Mappings
 
 Mapping | Action
@@ -17,14 +34,6 @@ Mapping | Action
 All the mappings work in normal mode and inside the terminal.
 
 The default prefix is '\<C-B>'.
-
-## Installation
-
-Install the plugin using [Plug](https://github.com/junegunn/vim-plug):
-
-```vimscript
-Plug 'DanySpin97/ttab.vim'
-```
 
 ## Settings
 
